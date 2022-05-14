@@ -5,6 +5,7 @@ import Greet from './components/greet';
 import JsxCompare from './components/jsxCompare';
 import StateExample from './components/stateExample';
 import Counter from './components/counter';
+import UserGreeting from './components/userGreeting';
 
 function App() {
     return (
@@ -16,7 +17,8 @@ function App() {
             <Greet name="JOI" />
             <Greet name="Preet" /> */}
             {/* <StateExample /> */}
-            <Counter />
+            {/* <Counter /> */}
+            <UserGreeting />
         </div>
     );
 }
