@@ -7,6 +7,8 @@ import StateExample from './components/stateExample';
 import Counter from './components/counter';
 import UserGreeting from './components/userGreeting';
 import Form from './components/form';
+import PostList from './components/postlist';
+import PostForm from './components/postForm';
 
 function App() {
     return (
@@ -20,7 +22,9 @@ function App() {
             {/* <StateExample /> */}
             {/* <Counter /> */}
             {/* <UserGreeting /> */}
-            <Form />
+            {/* <Form /> */}
+            {/* <PostList /> */}
+            <PostForm />
         </div>
     );
 }
